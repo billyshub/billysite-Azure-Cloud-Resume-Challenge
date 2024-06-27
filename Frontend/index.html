@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<!-- meta information about the document, loads before the page content -->
+<head>
+  <!-- character endocding (consistent and correct display) -->
+  <meta charset="utf-8">
+  <!-- title in top of webpage -->
+  <title>Billy's Site</title>
+  <!-- icon in top of webpage -->
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+  <!-- import Open Sans CSS stylesheet from google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <!-- link to CSS in the head-->
+  <link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<!-- visible content -->
+<body>
+  <!-- header -->
+  <h1>Billy's Site</h1>
+
+  <!-- linkedin badge -->
+  <iframe id="linkedinBadge" src="linkedin-badge.html" frameborder="0" scrolling="no"
+    style="border:none; overflow:hidden; width:282px; height:281px;"></iframe>
+
+  <!-- github badge -->
+  <a href="https://github.com/billyshub">
+    <img src="https://img.shields.io/badge/Billy's-Github-181717?style=for-the-badge&logo=github" alt="GitHub"
+      style="width: 280px; height: 40px;">
+  </a>
+
+  <!-- Visitor counter javascript display  -->
+  <div id="result"></div>
+
+  test
+
+  <!-- link to JS in head gives js priority, bottom of body then html priority-->
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>

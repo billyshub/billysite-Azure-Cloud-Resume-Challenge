@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "ConnectionString": "DefaultEndpointsProtocol=https;AccountName=billysitecosmosdbtable;AccountKey=XXXXXXXXXX==;TableEndpoint=https://billysitecosmosdbtable.table.cosmos.azure.com:443/;",
+    "billysitecosmosdbtable_DOCUMENTDB": "AccountEndpoint=https://billysitecosmosdbtable.documents.azure.com:443/;AccountKey=XXXXXXXXXX=="
+  }
+}

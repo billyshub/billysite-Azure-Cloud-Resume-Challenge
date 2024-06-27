@@ -1,0 +1,37 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    },
+    {
+      "type": "table",
+      "direction": "in",
+      "name": "inputTable",
+      "tableName": "VisitorCounter",
+      "take": "50",
+      "connection": "ConnectionString",
+      "partitionKey": "billysite"
+    },
+    {
+      "type": "table",
+      "direction": "out",
+      "name": "outputTable",
+      "tableName": "VisitorCounter",
+      "connection": "ConnectionString",
+      "partitionKey": "billysite"
+    }
+  ]
+}

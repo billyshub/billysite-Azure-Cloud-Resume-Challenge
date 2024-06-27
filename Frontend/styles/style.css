@@ -1,0 +1,53 @@
+html {
+  /* base font size */
+  font-size: 16px;
+  /* font family */
+  font-family: 'Roboto', sans-serif;
+  /* background colour */
+  background-color: #222222;
+}
+
+h1 {
+  /* header font size */
+  font-size: 60px;
+  /* aligns text */
+  text-align: center;
+  /* removes default margin */
+  margin: 0;
+  /* padding top and bottom */
+  padding: 20px 0;
+  /* text colour */
+  color: #000000;
+}
+
+p,
+li {
+  /* paragraph and list font size */
+  font-size: 16px;
+  /* line height */
+  line-height: 2;
+  /* letter spacing */
+  letter-spacing: 1px;
+}
+
+body {
+  /* body width */
+  width: 1200px;
+  /* centres the body in the viewport */
+  margin: 0 auto;
+  text-align: center;
+  /* background colour */
+  background-color: #8b8dff;
+  /* padding top, right, bottom, left */
+  padding: 0 20px 20px 20px;
+  /* border around the body */
+  border: 5px solid black;
+}
+
+iframe {
+  /* flex container ontp of elements */
+  display: flex; 
+  /* entre container horizontally */
+  margin: 0 auto; 
+  padding: 0px 0px 10px 0px;
+}
